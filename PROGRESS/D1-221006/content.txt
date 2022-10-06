@@ -1,0 +1,37 @@
+1. Contructor:
+
+2. Some familiar tag
+h tag
+p tag
+img tag
+a tag
+ul: unordered list + <li></li>
+ol: ordered list + <li></li>
+table
+ 
+<table>
+    <thead>
+        <th></th>
+        <th></th>
+        <th></th>
+        ......
+    </thead>
+    <tbody>
+        <tr>
+            <td> abc </td>
+            <td> abc </td>
+            <td> abc </td>
+        </tr>
+        ......
+    </tbody>
+</table>
+
+3. Way to import css for html:
+    + Internal
+    + External
+    + Inline
+
+4. CSS SELECTOR 
+    + ID: use attribute id in open tag, use # 
+    + CLASS: use attribute class in open tag, use . 
+    + https://www.w3schools.com/cssref/css_selectors.asp

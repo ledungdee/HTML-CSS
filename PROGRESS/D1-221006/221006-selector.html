@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+    <head>
+        <title>221006</title>
+        <!--  thẻ meta có thuộc tính charset - utf-8 để có thể hiển thị tiếng Việt -->
+        <meta charset="utf-8">
+        <style>
+            /* Chọn tất cả thẻ "p" là con của thẻ có class "parent" */
+            .parent p {
+                color: green;
+            }
+            /* Chọn tất cả thẻ có class "children-1" là con của thẻ có class "parent" */
+            .parent .children-1 {
+                color: red;
+            }
+        </style>
+    </head> 
+    <body>
+        <p class="children-1">Đoạn văn 1 (không parent)</p>
+        <p class="children-2">Đoạn văn 2 (không parent)</p>
+
+        <div class="parent">
+            <p>Đoạn văn 1 (parent)</p>
+            <p class="children-1">Đoạn văn 1 (con của .parent)</p>
+            <p class="children-2">Đoạn văn 2 (con của .parent)</p>
+        </div>
+    </body>
