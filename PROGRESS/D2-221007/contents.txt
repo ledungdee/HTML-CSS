@@ -1,0 +1,63 @@
+NỘI DUNG NGÀY 2
+- PRIORITY
+    + INTERNAL, EXTERNAL: Cái nào mới hơn cái đó được sử dụng (được gọi sau)
+    
+    + INLINE: 1000đ     style=""
+      #ID   : 100đ      #id
+      .CLASS: 10đ       .class
+      TAG   : 1đ        h1
+      !important: ưu tiên cao nhất
+    
+    + Equal specificity: 2 selector bằng điểm nhau: mới hơn được ưu tiên
+    
+    + Cộng dồn điểm giữa các cách selector 
+   
+    + Universal selector and inherited: 
+    *{
+        color: red;   => Universal: 0
+    }
+
+    html{
+        color: violet; => Inherited: 0đ
+    }
+    => chỉ cần 1 thẻ tag thui là sẽ ghi đè được thuộc tính
+
+    + ! important: 
+    1. h1{
+        color: red !important; => mạnh hơn inline
+    }
+    2. inline
+        <h1 style="color: red !important">abc</h1> => mạnh nhất
+
+- CSS variable
+    + Global variable:
+        :root {
+            --text-color: red;
+        }
+    + Local variable:
+        h1 {
+            --my-color: red;
+            color: var(--my-color);
+        }
+
+- CSS UNITS
+    + Absolute units: px kích thước cố định
+    + Relative units:
+        . %  : 100%, 50%,...phụ thuộc vào kích thước của thẻ chứa nó
+        . rem: 1rem, 2rem,...phụ thuộc vào thuộc tính cùng tên trong thẻ html
+        . em : 1em, 0.5em,...phụ thuộc vào thẻ gần nhất chứa thuộc tính mà nó khai báo
+        . vw : viewport width. 1-100vw phụ thuộc vào kích thước của trình duyệt
+        . vh : viewport height. 
+        
+- CSS Pseudo-classes:
+    + :root
+    + :hover
+    + :active
+    + :first-child
+    + :last-child
+    Ex: 
+        h1:hover {
+            color: red;
+        }
+
+        h1:
