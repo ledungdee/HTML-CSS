@@ -1,0 +1,9 @@
+A. ĐỆM, VIỀN VÀ KHOẢNG LỀ
+    1. PADDING: ĐỆM
+        padding-left:/right:/top:/bottom:
+        padding: 10px => 4 phía
+        padding: 10px 16px => trên = dưới = 10px; trái = phải = 16px
+        padding: 10px 10px 16px => trên = 10px; trái = phải = 10px; dưới = 16px
+        padding: 10px 15px 10px 15px => trên = 10px, phải = 15px, dưới = 10px, trái = 15px 
+
+    2. Border: đường viền

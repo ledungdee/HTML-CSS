@@ -1,1 +1,6 @@
-14 days:
+14 days
+
+Inspect:
+
+- user agent stylesheet: style mặc định của đối tượng
+- 

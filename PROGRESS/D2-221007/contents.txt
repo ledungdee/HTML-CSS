@@ -60,4 +60,11 @@ NỘI DUNG NGÀY 2
             color: red;
         }
 
-        h1:
+- Pseudo-element: N3
+    ::before
+    ::after
+    ::first-letter
+    ::first-line
+    ::selection
+
+

@@ -1,0 +1,11 @@
+Nguyên tắc:
+- Từ ngoài vào trong
+- Từ trên xuống dưới
+=> Tổng quan đến chi tiết 
+
+Cụ thể từng đối tượng:
+1. Vị trí
+2. Kích thước: height, width
+3. Màu sắc
+4. Kiểu dáng
+
